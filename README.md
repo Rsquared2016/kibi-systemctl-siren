@@ -37,7 +37,7 @@ You access the application with `localhost:5606`
 
 See the Siren documentation for login and passwords.
 
-## Installation on remote host
+## Installation on remote host like AWS EC2 or CentOS Linux VMs
 
 Download the zip file and expand the files. If you choose the with one with demonstration data, the file is 1.2GB. 
 
