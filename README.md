@@ -59,7 +59,7 @@ cd /etc/systemd/system
 ls -l
 ls multi-user.target.wants/
 ```
-Then create the following two service files. The syntax is critical. For some versions of CentOS, no spaces are used to separate the sections or between equal signs. Your system may not use `network.target`, instead we use `basic.target`. Many examples will show you network.target `After` service. You can find out by running:
+Then create the following two service files. The syntax is critical. For some versions of CentOS, no spaces are used to separate the sections or between equal signs. Your system may not use `network.target`, instead we use `basic.target`. Many examples will show you network.target specified for `After` in the service file. You can find out by running:
 ```
 sudo systemd-analyze critical-chain
 ```
